@@ -423,18 +423,35 @@
 // area(4,5);
 
 // Q11
-// function strigg(){
-// var str=prompt("Enter a string");
-// var newChar=str.length;
-// for(var i=0;i<newChar;i++)[
-// if(str.slice(i,i+1)===" "){
-
+// var str=prompt(" Enter string");
+// function longestWord(string) {
+//     var str = string.split(" ");
+//     var longest = 0;
+//     var word = null;
+//     str.forEach(function(str) {
+//         if (longest < str.length) {
+//             longest = str.length;
+//             word = str;
+//         }
+//     });
+//     return word;
 // }
+// console.write(longestWord("pride and prejudice"));
 
-
+// Q14
+// function calcCircumference(){
+// var radius=+prompt("Enter a radius of circle");
+// var cons=2;
+// var piee=3.14;
+// var result= cons*piee*radius;
+// return document.write(result);
 // }
+// calcCircumference();
 
-
-
-
-
+function calcArea(){
+    var radius=+prompt("Enter a radius of circle");
+    var piee=3.14;
+    var result= piee*radius*radius;
+    return document.write(result);
+    }
+    calcArea();
