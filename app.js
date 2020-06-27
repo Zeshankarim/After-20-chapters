@@ -422,6 +422,22 @@
 // }
 // area(4,5);
 
+// Q10
+// function ispalindrome(){
+//     var instr=prompt("enter a word ");
+//     instr=instr.toLowerCase();
+//     // console.log(instr);
+//     for(var i=0;i<instr.length;i+-1){
+//         if (instr[i] !==instr[instr.length-1-i]){
+//             document.write("It is not a palindrome");
+//         }
+//         break;
+//     }
+//     document.write("It is a palindrome");
+
+// }
+// ispalindrome();
+
 // Q11
 // var str=prompt(" Enter string");
 // function longestWord(string) {
@@ -448,10 +464,10 @@
 // }
 // calcCircumference();
 
-function calcArea(){
-    var radius=+prompt("Enter a radius of circle");
-    var piee=3.14;
-    var result= piee*radius*radius;
-    return document.write(result);
-    }
-    calcArea();
+// function calcArea(){
+//     var radius=+prompt("Enter a radius of circle");
+//     var piee=3.14;
+//     var result= piee*radius*radius;
+//     return document.write(result);
+//     }
+//     calcArea();
