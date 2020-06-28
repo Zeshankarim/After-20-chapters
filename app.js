@@ -438,21 +438,19 @@
 // }
 // ispalindrome();
 
-// Q11
-// var str=prompt(" Enter string");
-// function longestWord(string) {
-//     var str = string.split(" ");
-//     var longest = 0;
-//     var word = null;
-//     str.forEach(function(str) {
-//         if (longest < str.length) {
-//             longest = str.length;
-//             word = str;
-//         }
-//     });
-//     return word;
-// }
-// console.write(longestWord("pride and prejudice"));
+
+Q11
+function uppercase(str){
+    var array1 = str.split(' ');
+    var newarray1 = [];
+      
+    for(var x = 0; x < array1.length; x++){
+        newarray1.push(array1[x].charAt(0).toUpperCase()+array1[x].slice(1));
+    }
+    return newarray1.join(' ');
+  }
+  document.write(uppercase("the quick brown fox"));
+  
 
 // Q14
 // function calcCircumference(){
@@ -471,3 +469,5 @@
 //     return document.write(result);
 //     }
 //     calcArea();
+
+
