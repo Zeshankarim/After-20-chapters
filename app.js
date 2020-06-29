@@ -271,12 +271,15 @@
 
 // Q6
 // var today=new Date();
+// document.write(today);
+// var newTime=today.getTime();
 // var date=new Date( "Jan 1,1970 00:00:00");
-// var mstoday=today.getDate();
-// var previous=date.getDate();
-// var msDiff=mstoday-previous;
-// var dDiff=msDiff/(1000*60*60*24)
-// alert(dDiff);
+// var oldtime=date.getTime();
+// var diff1=newTime-oldtime;
+// document.write( "<br/> Elapsed millisecond since jauary 1,1970: "+ diff1);
+// var mnit=diff1/1000/60;
+// document.write("<br/> Elapsed minutes since jauary 1,1970: "+mnit);
+
 
 // Q7
 // var a=prompt("Enter time to test Am or Pm");
