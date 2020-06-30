@@ -304,11 +304,11 @@
 
 // Q10
 // var a=new Date();
-// var aa=a.getHours();
-// var b=new Date("jan 01,2020 00:00:00");
-// var bb=b.getHours();
+// var aa=a.getTime();
+// var b=new Date("jan 01,2015 00:00:00");
+// var bb=b.getTime();
 
-// var c=aa-bb;
+// var c=(aa-bb)/1000;
 // alert(c);
 
 // Q11 
