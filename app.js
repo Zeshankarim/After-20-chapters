@@ -91,11 +91,12 @@
 
 // Q15
 // var password=prompt("enter a password");
-// for(var i=1;i<=6;i++){
-// if(password>i){
-// alert("password atleast six characters");
-// }
+// var a=[0,1,2,3,4,5,6,7,8,9];
+// for(var i=0;i<password.length;i++){
+// if(password[0]==a[i] || password.length>6) {
+// alert("password must start with character and atleast 6 character");
 // break;
+// }
 // }
 
 // Q16
@@ -418,6 +419,19 @@
 // }
 // count();
 
+// Q8
+// function pythagorus(){
+//   var base=+prompt("Enter base value ");
+//   var perp=+prompt("Enter perpendicular  value ");
+//   var hyp=base*base+perp*perp;
+// function basee(){
+//   var square=Math.sqrt(hyp);
+//   document.write(square);
+// }
+// basee();
+// }
+// pythagorus();
+
 // Q9
 // function area(width,height){
 //     var A=width*height;
@@ -442,19 +456,18 @@
 // ispalindrome();
 
 
-Q11
-function uppercase(str){
-    var array1 = str.split(' ');
-    var newarray1 = [];
+// Q11
+// function uppercase(str){
+//     var array1 = str.split(' ');
+//     var newarray1 = [];
       
-    for(var x = 0; x < array1.length; x++){
-        newarray1.push(array1[x].charAt(0).toUpperCase()+array1[x].slice(1));
-    }
-    return newarray1.join(' ');
-  }
-  document.write(uppercase("the quick brown fox"));
+//     for(var x = 0; x < array1.length; x++){
+//         newarray1.push(array1[x].charAt(0).toUpperCase()+array1[x].slice(1));
+//     }
+//     return newarray1.join(' ');
+//   }
+//   document.write(uppercase("the quick brown fox"));
   
-
 // Q14
 // function calcCircumference(){
 // var radius=+prompt("Enter a radius of circle");
