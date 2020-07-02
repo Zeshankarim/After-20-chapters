@@ -91,9 +91,9 @@
 
 // Q15
 // var password=prompt("enter a password");
-// var a=[0,1,2,3,4,5,6,7,8,9];
+// var array1=[0,1,2,3,4,5,6,7,8,9];
 // for(var i=0;i<password.length;i++){
-// if(password[0]==a[i] || password.length>6) {
+// if(password[0]==array1[i] || password.length>6) {
 // alert("password must start with character and atleast 6 character");
 // break;
 // }
