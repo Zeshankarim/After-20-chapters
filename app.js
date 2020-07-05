@@ -487,3 +487,41 @@
 //     calcArea();
 
 
+// Chapter 38 to 42----------------------------------------------------------------------------------
+// Q1 
+// function raised(a,b){
+// document.write(Math.pow(a,b));
+// }
+// raised(2,3);
+
+// Q2
+// function leapyear(a){
+// switch(a%4){
+// case 0:
+// alert("leap year");
+// break;
+
+// default:
+//     alert("Not leap year");
+// }
+// }
+// leapyear(+prompt("Enter a year"));
+
+// Q3
+// function area(a,b,c){
+// var S=(a+b+c)/2;
+function second(a,b,c){
+var S=(a+b+c)/2;
+
+var d= (S-a)(S-b)(S-c);
+    alert(d);
+}
+second(2,2,2);
+// }
+// area(2,2,2);
+
+
+
+
+
+
