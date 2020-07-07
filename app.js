@@ -536,6 +536,34 @@
 // result(50,60,70);
 
 // Q5
+// function capital(a){
+// var b=a.slice(0,1);
+// var c=b.toUpperCase()+a.slice(1);
+// alert(c);
+// }
+// capital(prompt("Enter a word"));
+
+// Q8
+// function diff(a){
+//     function meter(){
+//         var b=a*1000;
+//         document.write("In meters "+b);
+//     }
+//     function feet(){
+//         var c=a*3280.8;
+//         document.write("<br/> In feet "+c);
+//     }
+//     function cm(){
+//         var d=a*100000;
+//         document.write("<br/>In cm "+d);
+//     }
+//     meter();
+//     feet();
+//     cm();
+// }
+// diff(500);
+
+
 
 
 
