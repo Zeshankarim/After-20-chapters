@@ -510,17 +510,32 @@
 // Q3
 // function area(a,b,c){
 // var S=(a+b+c)/2;
-function second(a,b,c){
-var S=(a+b+c)/2;
-
-var d= (S-a)(S-b)(S-c);
-    alert(d);
-}
-second(2,2,2);
+// function calcu(){
+// var d=S*(S-a)*(S-b)*(S-c);
+// alert(d);
+// }
+// calcu();
 // }
 // area(2,2,2);
 
+// Q4
+// function result(Biology,english,urdu){
+// function average(){
+// var avg=(Biology+english+urdu)/3;
+// document.write("Average "+avg);
+// }
+// function per(){
+// var percentage=(Biology+english+urdu)/300*100;
+// document.write("<br/>percentage "+percentage);
 
+// }
+
+// average();
+// per();
+// }
+// result(50,60,70);
+
+// Q5
 
 
 
