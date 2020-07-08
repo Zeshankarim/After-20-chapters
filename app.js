@@ -563,6 +563,20 @@
 // }
 // diff(500);
 
+// Q9
+// function overtime(a){
+//     var b=+prompt("Enter an hour");
+//    if(b<=40){
+//     document.write(b*a);
+//    }
+//    else{
+//        document.write(40*12);
+//    }
+// }
+// overtime(12);
+
+// chapter 41-48--------------------------------------------------------------------
+//  solutions are present in index.html page 
 
 
 
