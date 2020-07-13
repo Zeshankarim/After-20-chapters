@@ -578,7 +578,16 @@
 // chapter 41-48--------------------------------------------------------------------
 //  solutions are present in index.html page 
 
+// for Q3
+// function dell(){
+//     var a=document.getElementById("delete");
+//     var b=a.tagName=
+
+// }
 
 
-
+// Q4
+function image(){
+    
+}
 
