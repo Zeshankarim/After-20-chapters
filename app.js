@@ -599,10 +599,18 @@
 //     var b=a.style.display="none";
 
 // }
+//<!-- Q5 -->
+// var clicks=0;
+// function increase(){
+//    clicks++;
+//    var a= document.getElementById("dec")
+//    a.value=clicks;
 
+// }
 
-// Q4
-function image(){
-    
-}
+// function decrease(){
+//    clicks--;
+//    var b= document.getElementById("dec")
+//    b.value=clicks;
 
+// }
