@@ -580,8 +580,23 @@
 
 // for Q3
 // function dell(){
-//     var a=document.getElementById("delete");
-//     var b=a.tagName=
+//     var a=document.getElementById("delet");
+//     var b=a.style.display="none";
+
+// }
+// function dell(){
+//     var a=document.getElementById("del");
+//     var b=a.style.display="none";
+
+// }
+// function dell(){
+//     var a=document.getElementById("de");
+//     var b=a.style.display="none";
+
+// }
+// function dell(){
+//     var a=document.getElementById("d");
+//     var b=a.style.display="none";
 
 // }
 
