@@ -614,3 +614,50 @@
 //    b.value=clicks;
 
 // }
+
+// chapter 49-52---------------------------------------------------------------------------
+// Q1
+// var entry=document.getElementById("entry");
+// entry.addEventListener("click",displayDetails);
+// function displayDetails(){
+//     var a= document.getElementById("inputEmail4").value;
+//     var b= document.getElementById("inputPassword4").value;
+//     var c= document.getElementById("inputCity").value;
+//     var d= document.getElementById("inputZip").value;
+//     var e= document.getElementById("gridCheck").value;
+//     document.write(a+"<br/>"+b+"<br/>"+c+"<br/>"+d+"<br/>"+e);
+// }
+
+// Q2
+// var i=0;
+// function read(){
+//     if(!i){
+//         document.getElementById("more").style.display="inline";
+//         document.getElementById("dots").style.display="none";
+//         document.getElementById("read").innerHTML="Read less";
+//         i=1;
+//     }
+//     else{
+//         document.getElementById("more").style.display="none";
+//         document.getElementById("dots").style.display="inline";
+//         document.getElementById("read").innerHTML="Read more";
+//         i=0;
+//     }
+// }
+
+// chapter 58-67------------------------------------------------------
+// Q1 and 2
+// var main = document.getElementById("main-content");
+// console.log(main.childNodes);
+
+// Q3
+// var a=document.getElementsByTagName("p");
+// for(var i=0;i<a.length;i++){
+// console.log(a[i].innerHTML);
+// }
+
+// Q4
+var a=document.getElementById('first-name');
+a.value="zeshan";
+
+
