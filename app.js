@@ -656,8 +656,8 @@
 // console.log(a[i].innerHTML);
 // }
 
-// Q4
-var a=document.getElementById('first-name');
-a.value="zeshan";
+// Q2(1)
+var a=document.getElementById("form-content").nodeValue;
+console.log(a);
 
 
