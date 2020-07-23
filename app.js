@@ -646,8 +646,9 @@
 // }
 
 // chapter 58-67------------------------------------------------------
-// Q1 and 2
+// Q1 
 // var main = document.getElementById("main-content");
+// Q2
 // console.log(main.childNodes);
 
 // Q3
@@ -657,7 +658,27 @@
 // }
 
 // Q2(1)
-var a=document.getElementById("form-content").nodeValue;
-console.log(a);
+// var a=document.getElementById("first-name");
+// console.log(a.nodeType);
+
+// Q2(2)
+// var a=document.getElementById('lastName');
+// console.log(a.nodeType);
+// console.log(a.childNodes)
+
+// Q2 (3)
+// var a=document.getElementById('main-content');
+// console.log(a.firstChild);
+// console.log(a.lastChild);
+
+// Q2(4)
+// var a=document.getElementById('lastName');
+// console.log(a.nextSibling);
+// console.log(a.previousSibling);
+
+// Q2(6)
+// var a=document.getElementById('email');
+// console.log(a.parentNode);
+// console.log(a.nodeType);
 
 
